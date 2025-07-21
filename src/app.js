@@ -7,7 +7,7 @@ import userRoutesV1 from './routes/v1/user.route.js';
 import errorHandler from './middlewares/error-handlers/error.middleware.js';
 import connectDB from './config/db.js';
 
-// connectDB();
+connectDB();
 
 const app = express();
 
